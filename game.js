@@ -1,3 +1,4 @@
+
 function getComputerChoice(){
   let answer=Math.random()*3;
   let givenAnswer=Math.floor(answer);
@@ -11,29 +12,18 @@ function getComputerChoice(){
   else {
     return "scissors";
   }
-}
-console.log(getComputerChoice());
-
-// Second part of the question
+} 
 
 function getHumanChoice(){
-let humanInput=prompt("Input rock,paper,scissors");
-return humanInput;
+  let userInput=prompt("Enter rock,paper,scissors");
+  return userInput;
 }
-const humanInputSelection=getHumanChoice();
-console.log(`You chose ${humanInput}`);
+// let answer=getHumanChoice();
+// console.log(answer);
 
 
-// Third part of the question
 let humanScore=0;
 let computerScore=0;
 
-// Fourth part of the question
-function playRound(humanChoice,computerChoice){
 
-
-
-
-
-  
-}
+// g
